@@ -1,0 +1,4 @@
+Dataset,Rows,Non_Churn_Count,Churn_Count,Churn_Rate_Percent
+Full dataset,7043,5174,1869,26.54
+Training set,5634,4139,1495,26.54
+Testing set,1409,1035,374,26.54
