@@ -1,0 +1,38 @@
+ Dataset loaded
+
+Dataset_ATS_v2.csv
+
+ Data quality results
+7,043 original rows
+10 columns
+0 missing values
+302 duplicates
+ Preprocessing
+Remove duplicates
+Select relevant features
+StandardScaler
+4. Elbow Method graph
+
+Must have this.
+
+5. K-Means modelCluster,Customers,Average_Tenure,Average_Monthly_Charges
+0,1118,54.01520572450805,34.53846153846154
+1,1914,58.59038662486938,93.03187042842215
+2,1584,11.228535353535353,33.84469696969697
+3,2125,14.948705882352941,81.67717647058824
+
+
+K = 4
+
+6. Cluster visualisation
+
+Must have this.
+
+7. Cluster summary
+
+Know these numbers:
+
+Cluster 0: 14.8 months / $81.23 / 49.2% churn
+Cluster 1: 10.5 months / $32.49 / 24.5% churn
+Cluster 2: 58.8 months / $93.08 / 15.7% churn
+Cluster 3: 54.1 months / $34.15 / 4.8% churn
