@@ -1,0 +1,5 @@
+,tenure,tenure,tenure,tenure,tenure,tenure,MonthlyCharges,MonthlyCharges,MonthlyCharges,MonthlyCharges,MonthlyCharges,MonthlyCharges
+,count,mean,median,std,min,max,count,mean,median,std,min,max
+Churn,,,,,,,,,,,,
+No,5174,37.57,38.0,24.11,0,72,5174,61.27,64.0,31.09,18,119
+Yes,1869,17.98,10.0,19.53,1,72,1869,74.43,80.0,24.67,19,118
