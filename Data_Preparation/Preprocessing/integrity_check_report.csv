@@ -1,0 +1,8 @@
+Check,Finding,Action,Reason
+Missing values,0,No action required,No missing values were detected
+Blank strings,0,No action required,No blank strings were detected
+Fully duplicated rows,302,Retained,No unique customer ID is available
+Invalid categorical values,0,No action required,All categories matched expected values
+Impossible numerical values,0,No action required,All numerical values were within valid ranges
+IQR-based outliers,0,No action required,No IQR-based outliers were detected
+Phone-service logical conflicts,260,Corrected MultipleLines to No,Multiple lines cannot exist without phone service

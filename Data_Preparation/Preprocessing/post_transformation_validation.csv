@@ -1,0 +1,14 @@
+Validation_Check,Result,Expected,Status
+Training row count preserved,True,True,PASS
+Testing row count preserved,True,True,PASS
+Train and test columns match,True,True,PASS
+Training missing values,0,0,PASS
+Testing missing values,0,0,PASS
+Training infinite values,0,0,PASS
+Testing infinite values,0,0,PASS
+Training encoded values are binary,True,True,PASS
+Testing encoded values are binary,True,True,PASS
+Target values are binary,True,True,PASS
+Train and test index overlap,0,0,PASS
+Scaled training means approximately zero,True,True,PASS
+Scaled training standard deviations approximately one,True,True,PASS

@@ -1,0 +1,6 @@
+Feature_Group,Features,Method,Fitted_On
+Categorical predictors,"gender, Dependents, PhoneService, MultipleLines, InternetService, Contract","OneHotEncoder(drop='first', handle_unknown='ignore')",Training data only
+Continuous predictors,"tenure, MonthlyCharges",StandardScaler,Training data only
+Existing binary predictor,SeniorCitizen,Passed through without scaling,Not applicable
+Target variable,Churn,Mapped No=0 and Yes=1,Applied before splitting
+Dataset split,All records,80:20 stratified split with random_state=42,Full cleaned dataset
